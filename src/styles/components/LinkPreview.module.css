@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 2rem 0;
+  background-color: var(--gray-800);
+  border-radius: 1rem;
+}
+
+.image {
+  width: 12rem;
+  height: 10rem;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.content {
+  padding: 1rem;
+  max-width: 20rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: var(--gray-300);
+  letter-spacing: unset;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.description {
+  margin-top: 0.5rem;
+  color: var(--gray-500);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+}
+
+.origin {
+  margin-top: 0.5rem;
+  color: var(--yellow-500);
+}
